@@ -1,0 +1,11 @@
+number_input = input("Будь ласка, введіть 4-значне число: ")
+number_input = int(number_input)
+result_1 = (number_input // 1000)
+result_2 = (number_input // 100 % 10)
+result_3 = (number_input // 10 % 10)
+result_4 = (number_input % 10)
+
+print(result_1)
+print(result_2)
+print(result_3)
+print(result_4)
