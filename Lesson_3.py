@@ -16,3 +16,4 @@ elif operaciya == "/":
         print(number_1 / number_2)
     else:
         print("Ділити на 0 не можна. Введіть іншу цифру, або зменіть операцію")
+
