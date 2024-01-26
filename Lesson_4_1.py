@@ -1,4 +1,4 @@
-list = [0, 3, 5, 0, 4, 6, 0, 9]
+list = [0, 3, 5, 0, 4, 0, 7, 9]
 index = 0
 for i in range(len(list)):
     if list[i] != 0:
