@@ -10,11 +10,11 @@
 # 3m => False
 # m3 => True
 
-def valid(my_str_1):                                 # тут також?
+def valid(my_str_1):                                 # а чого воно тут лається на назву (my_str_1) у IDE, нерозумію
     result = False
     if my_str_1.isidentifier():
         if my_str_1 == "_" or my_str_1.islower():
             result = True
     return result
-my_str_1 = input("Input variable name: ")            # а чого воно тут лається, не розумію.
+my_str_1 = input("Input variable name: ")            # тут також?
 print(valid(my_str_1))
