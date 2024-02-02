@@ -1,8 +1,8 @@
 my_dict_1 = {"Key_1": 1, "key_2": 2, "key_3": 3}
 my_dict_2 = {"key_2": 10, "key_3": 30, "d": 40}
 
-common_keys = list(set(my_dict_1.keys()) & set(my_dict_2.keys()))
-print("shared keys: ", common_keys)
+shared_keys = list(set(my_dict_1.keys()) & set(my_dict_2.keys()))
+print("shared keys: ", shared_keys)
 
 unique_keys_first = [key for key in my_dict_1.keys() if key not in my_dict_2]
 print("unique keys: ", unique_keys_first)
