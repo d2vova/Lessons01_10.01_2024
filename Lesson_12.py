@@ -45,15 +45,6 @@ class Purchase:
         return tmp
 
 
-
-    # def __str__(self):
-    #     '''Метод виведення інформації про кошик'''
-    #     tmp = f'User: {self.user} \n'
-    #     for item, cnt in self.products.items():
-    #         tmp += f"Items:\n{str(item)}: {cnt} pcs. \n"
-    #     return tmp
-
-
 lemon = Item('lemon', 5, "yellow", "small", )
 apple = Item('apple', 2, "red", "middle", )
 print(lemon)  # lemon, price: 5
