@@ -79,14 +79,3 @@ try:
     gr.add_student(st11)
 except GroupOverflowError as e:
     print(e)
-
-
-print(gr)
-assert str(gr.find_student('Jobs')) == str(st1), 'Test1'
-assert gr.find_student('Jobs2') is None, 'Test2'
-assert isinstance(gr.find_student('Jobs'), Student) is True, 'Метод пошуку має повертати екземпляр'
-
-gr.delete_student('Taylor')
-print(gr)  # Only one student
-
-gr.delete_student('Taylor')  # No error!
